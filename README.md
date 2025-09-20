@@ -5,6 +5,11 @@ It allows users to compare the performance of different models, analyze evaluati
 A **Streamlit frontend** is also provided for interactive use.
 
 ---
+## Dataset Link
+
+  https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset/data
+ 
+---
 
 ## 🚀 Features
 
