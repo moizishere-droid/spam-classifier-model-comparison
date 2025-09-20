@@ -13,9 +13,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # -------------------------------
 # Download NLTK resources (only first run)
 # -------------------------------
-nltk.download('punkt')
-nltk.download('stopwords')
-
+import nltk
+nltk.download("punkt_tab", quiet=True, force=True)
+nltk.download("stopwords", quiet=True, force=True)
 # -------------------------------
 # Setup Preprocessing
 # -------------------------------
@@ -104,6 +104,7 @@ if st.button("🔮 Predict"):
         st.write(f"**Threshold:** {th:.3f}")
     else:
         st.warning("⚠️ Please enter some text before predicting.")
+
 
 
 
