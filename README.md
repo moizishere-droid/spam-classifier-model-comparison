@@ -9,6 +9,7 @@ A **Streamlit frontend** is also provided for interactive use.
 ## 🚀 Features
 
 * Preprocesses raw text (lowercasing, stopword removal, stemming, tokenization).
+* ***vob = 10000 words and max_len = 400***
 * Implements and trains **RNN, LSTM, and GRU models**.
 * Performs **hyperparameter tuning** to find the best thresholds.
 * Evaluates models using **accuracy, confusion matrix, ROC-AUC, Precision-Recall**.
