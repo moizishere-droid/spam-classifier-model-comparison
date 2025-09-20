@@ -87,7 +87,7 @@ st.title("📩 Spam Detection App")
 st.write("Enter a message below, select a model, and check if it’s **Spam (0)** or **Ham (1)**.")
 
 # Text input
-user_text = st.text_area("✍️ Enter your message:", "")
+user_text = st.text_area("✍️ Enter your message:", "Hi Moiz, just reminding you that our project meeting is scheduled for 3 PM tomorrow in the university lab. Please bring your notes.")
 
 # Model selector
 model_choice = st.selectbox("🧠 Choose Model", ["GRU", "LSTM", "RNN"])
@@ -104,6 +104,7 @@ if st.button("🔮 Predict"):
         st.write(f"**Threshold:** {th:.3f}")
     else:
         st.warning("⚠️ Please enter some text before predicting.")
+
 
 
 
