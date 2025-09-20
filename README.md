@@ -17,6 +17,7 @@ A **Streamlit frontend** is also provided for interactive use.
   * Test dataset
   * Raw user input (custom text)
 * Interactive **Streamlit UI** for easy usage.
+     link --> https://spam-classifier-model-comparison-eotpahqdpniqmgathvlnge.streamlit.app/
 
 ---
 
