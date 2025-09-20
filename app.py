@@ -39,8 +39,9 @@ def transform_text(text):
 # -------------------------------
 # Load Tokenizer
 # -------------------------------
-with open("tokenizer.pkl", "wb") as f:
-    pickle.dump(tokenizer, f)
+# Load the tokenizer (no need to define it again)
+with open("tokenizer.pkl", "rb") as f:
+    tokenizer = pickle.load(f)
 
 # -------------------------------
 # Best Thresholds
@@ -102,4 +103,5 @@ if st.button("🔮 Predict"):
         st.write(f"**Threshold:** {th:.3f}")
     else:
         st.warning("⚠️ Please enter some text before predicting.")
+
 
