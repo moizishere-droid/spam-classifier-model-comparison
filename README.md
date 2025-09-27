@@ -48,7 +48,7 @@ A **Streamlit frontend** is also provided for interactive use.
 * **LSTM** → `0.9887`
 * **GRU** → `0.9881`
 
-✅ Clearly, **LSTM and GRU** outperform RNN by a large margin.
+✅ Clearly, **LSTM and GRU** outperform RNN by a large margin.But **LSTM** give better results than **GRU** in case of Accuracy
 
 ---
 
